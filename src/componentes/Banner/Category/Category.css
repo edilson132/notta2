@@ -1,4 +1,21 @@
-.conatiner-categorias {
-    display: flex;
-    flex-direction: row;
+.container-categorias{
+padding-top: 6px;
+}
+
+.container-categorias .container-categorias-img {
+    display: flex;   
+    flex-flow: wrap;
+    gap: 6px;
+
+}
+
+.conatiner-categorias-img div {
+flex-grow: 1;
+} 
+
+.conatiner-categorias-img img {
+    width: 316px;
+    height: 395px;
+    gap: 17.84px;
+
 }

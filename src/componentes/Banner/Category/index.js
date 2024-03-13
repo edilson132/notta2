@@ -3,7 +3,8 @@ import './Category.css'
 const Categorys = () => {
     return (
         <section className='container-categorias'>
-            <div>
+            <div className='container-categorias-img'>
+                <div>
                 <img src='../imagens/Brincos.png' alt='Foto da categoria de brincos'/>
             </div>
             <div>
@@ -15,6 +16,8 @@ const Categorys = () => {
             <div>
                 <img src='../imagens/Aneis.png' alt='Foto da categoria de aneis'/>
             </div>
+            </div>
+            
 
         </section>
     )
