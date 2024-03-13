@@ -1,0 +1,4 @@
+.conatiner-categorias {
+    display: flex;
+    flex-direction: row;
+}
