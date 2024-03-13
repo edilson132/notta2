@@ -24,7 +24,7 @@ const Banner = () => {
                 <img className='container-img-marca' src='../imagens/marca-notta.png' alt='imagem da logo Notta'/>
             </div>
                 <div className='container-barra-de-busca'>
-                    <img className='container-img-barra-de-busca' src="../imagens/Barra de Busca.png" alt="Imagem de da barra de pesquisa" />
+                    <img className='container-img-barra-de-busca' src="../imagens/Barra de Busca.png" alt="Imagem da barra de pesquisa" />
                     <nav className='container-nav-2'>
                     <img src="../imagens/User Dark.png" alt="" />
                     <img src="../imagens/Wishlist dark .png" alt="" />
