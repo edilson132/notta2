@@ -26,9 +26,9 @@ const Banner = () => {
                 <div className='container-barra-de-busca'>
                     <img className='container-img-barra-de-busca' src="../imagens/Barra de Busca.png" alt="Imagem da barra de pesquisa" />
                     <nav className='container-nav-2'>
-                    <img src="../imagens/User Dark.png" alt="" />
-                    <img src="../imagens/Wishlist dark .png" alt="" />
-                    <img src="../imagens/Bag Dark.png" alt="" />
+                    <img src="../imagens/User Dark.png" alt="Icone de um boneco" />
+                    <img src="../imagens/Wishlist dark .png" alt="Icone de um coração" />
+                    <img src="../imagens/Bag Dark.png" alt="Icone de cadeado" />
                 </nav>
                 </div> 
                 
