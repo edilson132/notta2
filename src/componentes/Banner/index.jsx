@@ -8,15 +8,15 @@ const Banner = () => {
             <div className='container-beneficios' >
                 <p className='container-paragrafo'>Frete grátis nas compras a partir de R$ 300</p>
             </div>
-            <section className='container-banner'>
+            <section className='container-banner' >
                 
             <div  className='container-pesquisa'>
                 <div>
                 <nav className='container-nav'>
-                    <a href='#' >SHOP</a>
-                    <a href='#' >BEST SELLER</a>
-                    <a href='#' >NEW</a>
-                    <a href='#' >SOBRE</a>
+                    <a href='https' >SHOP</a>
+                    <a href='https' >BEST SELLER</a>
+                    <a href='https' >NEW</a>
+                    <a href='https' >SOBRE</a>
                     
                 </nav>
             </div>

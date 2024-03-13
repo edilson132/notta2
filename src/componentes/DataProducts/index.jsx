@@ -1,6 +1,67 @@
 
 const DataProducts = [
     {
-        
+        id:'1',
+        nome:'',
+        imagem:'',
+        preco:'',
+        desconto:'',
+        categoria:''
+    },
+    {
+        id:'2',
+        nome:'',
+        imagem:'',
+        preco:'',
+        desconto:'',
+        categoria:''
+    },
+    {
+        id:'3',
+        nome:'',
+        imagem:'',
+        preco:'',
+        desconto:'',
+        categoria:''
+    },
+    {
+        id:'4',
+        nome:'',
+        imagem:'',
+        preco:'',
+        desconto:'',
+        categoria:''
+    },
+    {
+        id:'5',
+        nome:'',
+        imagem:'',
+        preco:'',
+        desconto:'',
+        categoria:''
+    },
+    {
+        id:'6',
+        nome:'',
+        imagem:'',
+        preco:'',
+        desconto:'',
+        categoria:''
+    },
+    {
+        id:'7',
+        nome:'',
+        imagem:'',
+        preco:'',
+        desconto:'',
+        categoria:''
+    },
+    {
+        id:'8',
+        nome:'',
+        imagem:'',
+        preco:'',
+        desconto:'',
+        categoria:''
     }
 ]
