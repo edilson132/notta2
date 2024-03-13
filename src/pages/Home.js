@@ -1,5 +1,5 @@
 import Banner from "../componentes/Banner"
-import Categorys from "../componentes/Banner/Category"
+import Categorys from "../componentes/Category"
 
 const Home = () => {
     return (
