@@ -1,0 +1,92 @@
+
+
+.container-beneficios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    height: 38px;
+    background: #52534C;
+
+
+}
+
+.container-paragrafo {
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+
+}
+
+.container-banner {
+    width: 1280px;
+    height: 758px;
+
+    background-image: url('E:\notta\public\imagens\Imagem banner.png');
+}
+
+.container-pesquisa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-nav {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 30px;
+}
+
+.container-nav a {
+    color: #fff;
+    
+}
+
+
+
+.container-img-marca {
+    width: 203px;
+    height: 44px;
+
+}
+
+.container-barra-de-busca {
+    display: flex;
+
+}
+
+.container-img-barra-de-busca {
+    display: flex;
+    align-items: center;
+    width: 91px;
+    height: 45px;
+    padding: 8px;
+    border-radius: 8px;
+    gap: 8px;
+
+
+}
+
+.container-nav-2 {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 45px;
+    padding:8px ;
+    gap: 24px;
+
+}
+
+.container-nav-2 img {
+    width: 24px;
+    height: 24px;
+    padding: 2.25px, 3px, 2.25px, 3px;
+
+}
+
