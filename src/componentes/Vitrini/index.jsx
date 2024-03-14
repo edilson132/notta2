@@ -15,8 +15,9 @@ const Vitrini = (props) => {
             </div>
                 
             <div className='container-vitrini-img'>
-                <img src="../imagens/leftArrow.png" alt="Seta para esquerda" />
-                <img src="../imagens/rightArrow.png" alt="" />
+                <button><img src="../imagens/leftArrow.png" alt="Seta para esquerda" /></button>
+                <button><img src="../imagens/rightArrow.png" alt="Seta para direita" /></button>
+                
             </div>
             
             </div>
