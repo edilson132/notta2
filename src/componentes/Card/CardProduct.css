@@ -1,0 +1,39 @@
+.container-card-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-card-discount {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width:  83px;
+    height:  33px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 10px;
+    gap: 0.5rem;
+    border-radius: 2px;
+    background-color: #59574C;
+
+}
+
+.container-card-discount  {
+    font-family: FreeSans;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffff;
+}
+
+.container-card-footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* .container-card-footer p {
+    flex-basis: ;
+} */

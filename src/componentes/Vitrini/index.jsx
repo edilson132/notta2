@@ -8,13 +8,13 @@ const Vitrini = (props) => {
     return (
         <section>
             <h3>new in</h3>
-            <div>
+            <div className='container-vitrini-cards'>
                 {DataProducts.map(props => <CardProduct
                  key={props.nome}
                  nome={props.nome}
                  image={props.image}
                  price={props.price}
-                 desconto={props.discount}
+                 discount={props.discount}
                 />)}
                 
             </div>

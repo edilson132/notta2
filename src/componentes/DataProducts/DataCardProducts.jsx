@@ -3,7 +3,7 @@ const DataProducts = [
     {
         id:'1',
         nome:'Anel de prata pura ',
-        image:'url(../imagens/AnelPrateado.png)',
+        image:'../imagens/AnelPrateado.png',
         price:'189,00',
         discount:'10',
         category:'aneis'
@@ -11,7 +11,7 @@ const DataProducts = [
     {
         id:'2',
         nome:'Anel flow duo banhado a ouro 18k e ródio',
-        image:'url(../imagens/AnelDourado.png)',
+        image:'../imagens/AnelDourado.png',
         price:'150,00',
         discount:'10',
         category:'aneis'
@@ -19,7 +19,7 @@ const DataProducts = [
     {
         id:'3',
         nome:'Colar flow banhado a ouro 18k',
-        image:'url(../imagens/CorrenteDourado.png)',
+        image:'../imagens/CorrenteDourada.png',
         price:'350,00',
         discount:'10',
         category:'colares'
@@ -27,7 +27,7 @@ const DataProducts = [
     {
         id:'4',
         nome:'Brincos banhados a ouro 18k',
-        image:'url(../imagens/BrincosDourados.png)',
+        image:'../imagens/BrincosDourados.png',
         price:'220,00',
         discount:'10',
         category:'brincos'
@@ -35,7 +35,7 @@ const DataProducts = [
     {
         id:'5',
         nome:'Colar de ouro puro 18k ',
-        image:'url(../imagens/ColarOuroPuro.png)',
+        image:'../imagens/ColarOuroPuro.png',
         price:'200,00',
         discount:'10',
         category:'colares'
@@ -43,7 +43,7 @@ const DataProducts = [
     {
         id:'6',
         nome:'Colar de prata pura',
-        image:'url(../imagens/ColarPrataPura.png)',
+        image:'../imagens/ColarPrataPura.png',
         price:'245,00',
         discount:'10',
         category:'colares'
@@ -51,7 +51,7 @@ const DataProducts = [
     {
         id:'7',
         nome:'Colar banhado a ouro 24k',
-        image:'url(../imagens/ColarBanhado.png)',
+        image:'../imagens/ColarBanhado.png',
         price:'450,00',
         discount:'10',
         category:'colares'
@@ -59,7 +59,7 @@ const DataProducts = [
     {
         id:'8',
         nome:'Colar feito de marmore kahara',
-        image:'url(../imagens/ColarMarmore.png)',
+        image:'../imagens/ColarMarmore.png',
         price:'500,00',
         discount:'10',
         category:'colares'
