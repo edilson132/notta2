@@ -1,7 +1,7 @@
 import './CardProduct.css'
 import '../DataProducts/DataCardProducts.jsx'
 
-const CardProduct = (props, image) => {
+const CardProduct = (props) => {
     // const ImgTheBottom = props.image
     return (
         <section className="container-card-header">
@@ -14,7 +14,8 @@ const CardProduct = (props, image) => {
             </div>
             <div className="container-card-footer">
                 <p>{props.nome}</p>
-                <p>R${props.price}</p>
+                <p className='container-card-price'>R${props.price}</p>
+                <img src={props.imageVariation} alt="Icone de variação de cor" />
             </div>
 
         </section>

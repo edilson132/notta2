@@ -15,10 +15,6 @@
     gap: 0.5rem;
     border-radius: 2px;
     background-color: #59574C;
-
-}
-
-.container-card-discount  {
     font-family: FreeSans;
     font-size: 12px;
     font-weight: 700;
@@ -26,12 +22,43 @@
     letter-spacing: 0em;
     text-align: left;
     color: #ffff;
+
+}
+
+.container-card-img {
+    width: 100%;
+}
+
+.container-card-img img {
+    width: 100%;
 }
 
 .container-card-footer {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    
+}
+
+.container-card-footer p {
+    display: flex;
+    margin: 0.5rem 0 ;
+}
+
+.container-card-price {
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.container-card-footer img {
+    width: 56px;
+    height: 24px;
+    gap: 8px;
+
 }
 
 /* .container-card-footer p {
