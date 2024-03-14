@@ -4,11 +4,11 @@ const Banner = () => {
     return (
         
         <section className='Container-header'>
-             
+            
+          <header >
             <div className='container-beneficios' >
                 <p className='container-paragrafo'>Frete grátis nas compras a partir de R$ 300</p>
             </div>
-            <section className='container-banner' >
                 
             <div  className='container-pesquisa'>
                 <div>
@@ -33,9 +33,12 @@ const Banner = () => {
                 </div> 
                 
             </div>
+          </header>
+            
+            <section className='container-banner'>
+               <img src="../imagens/Imagem banner.png" alt="Imagem do banner" /> 
             </section>
-
-           
+            
         </section>
         
     )

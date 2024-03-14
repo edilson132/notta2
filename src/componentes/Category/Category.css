@@ -1,21 +1,22 @@
 .container-categorias{
-padding-top: 6px;
+    display: flex;
+    padding-top: 6px;
 }
 
 .container-categorias .container-categorias-img {
-    display: flex;   
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    /* display: flex;   
     flex-flow: wrap;
+    flex-grow: 5; */
+    width: 100%;
     gap: 6px;
 
 }
 
-.conatiner-categorias-img div {
-flex-grow: 1;
-} 
-
-.conatiner-categorias-img img {
-    width: 316px;
+.container-categorias-img img {
+    width: 100%;
     height: 395px;
-    gap: 17.84px;
+    
 
 }

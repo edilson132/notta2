@@ -1,10 +1,13 @@
-
+header {
+    position: absolute;
+    width: 100%;
+}
 
 .container-beneficios {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1280px;
+    width: 100%;
     height: 38px;
     background: #52534C;
 
@@ -22,18 +25,19 @@
 
 }
 
-.container-banner {
-    width: 1280px;
+ .container-banner img {
+    width: 100%;
     height: 758px;
-    background-image: url('F:\notta\public\imagens\Imagem banner.png');
+   
     
-}
+} 
 
 .container-pesquisa {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .container-nav {
