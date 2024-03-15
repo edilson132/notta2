@@ -34,4 +34,9 @@
     grid-template-columns: repeat(8 , 1fr);
     gap: 0.5rem ;
     overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.container-vitrini-cards::-webkit-scrollbar {
+    display: none;
 }
