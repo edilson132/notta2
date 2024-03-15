@@ -17,14 +17,21 @@
     text-align: left;
 
 }
-.container-vitrini-img {
+.container-vitrini-buttons {
     display: flex;
     align-items: center;
     gap: 24px;
+}
+
+.container-vitrini-buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 .container-vitrini-cards {
     display: grid;
     grid-template-columns: repeat(8 , 1fr);
     gap: 0.5rem ;
+    overflow-x: auto;
 }

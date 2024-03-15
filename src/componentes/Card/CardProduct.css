@@ -1,6 +1,7 @@
 .container-card-header {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .container-card-discount {
@@ -29,9 +30,9 @@
     width: 100%;
 }
 
-.container-card-img img {
+/* .container-card-img img {
     width: 100%;
-}
+} */
 
 .container-card-footer {
     display: flex;

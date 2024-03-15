@@ -3,7 +3,18 @@ import './Vitrini.css'
 import '../DataProducts/DataCardProducts.jsx'
 import DataProducts from '../DataProducts/DataCardProducts.jsx'
 
-const Vitrini = (props) => {
+const Vitrini = () => {
+
+
+    const passLeft = (e) => {
+        e.preventDefault()
+
+    }
+
+    const passRight = (e) => {
+        e.preventDefault()
+    }
+    
     
     return (
         <section className='container-vitrini'>
@@ -14,15 +25,16 @@ const Vitrini = (props) => {
                 <h3>new in</h3>
             </div>
                 
-            <div className='container-vitrini-img'>
-                <button><img src="../imagens/leftArrow.png" alt="Seta para esquerda" /></button>
-                <button><img src="../imagens/rightArrow.png" alt="Seta para direita" /></button>
+            <div className='container-vitrini-buttons'>
+                <button onClick={passLeft}><img src="../imagens/leftArrow.png" alt="Seta para esquerda" /></button>
+                <button onClick={passRight}><img src="../imagens/rightArrow.png" alt="Seta para direita" /></button>
                 
             </div>
             
             </div>
             
-            <div className='container-vitrini-cards'>
+            <div className='carousel'>
+                <div className='container-vitrini-cards'>
                 {DataProducts.map(props => <CardProduct
                  key={props.nome}
                  nome={props.nome}
@@ -33,6 +45,8 @@ const Vitrini = (props) => {
                 />)}
                 
             </div>
+            </div>
+            
         </section>
     )
 }

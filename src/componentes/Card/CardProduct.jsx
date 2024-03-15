@@ -9,14 +9,17 @@ const CardProduct = (props) => {
                     <p>{props.discount}% OFF</p>
                     
                 </div>
+        
             <div className="container-card-img" >
                 <img src={props.image} alt="" />
             </div>
+
             <div className="container-card-footer">
                 <p>{props.nome}</p>
                 <p className='container-card-price'>R${props.price}</p>
                 <img src={props.imageVariation} alt="Icone de variação de cor" />
-            </div>
+            </div>           
+        
 
         </section>
     )
