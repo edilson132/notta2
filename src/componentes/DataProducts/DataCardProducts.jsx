@@ -71,7 +71,7 @@ const DataProducts = [
         price:'500,00',
         discount:'10',
         category:'colares'
-    },
+    }
     
 ]
 

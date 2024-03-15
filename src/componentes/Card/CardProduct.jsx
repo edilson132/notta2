@@ -1,17 +1,23 @@
 import './CardProduct.css'
 import '../DataProducts/DataCardProducts.jsx'
 import '@mantine/carousel/styles.css';
+import { Carousel } from '@mantine/carousel';
+import { MantineProvider } from '@mantine/core';
 // import Slider from '../Slider/Slider.js'
 
 
 const CardProduct = (props) => {
-    // const settings = {
-    //     spaceBetwenn:50,
-    //     slidesPerview:3,
-    // }
-    // const ImgTheBottom = props.image
     return (
-            
+
+        <MantineProvider>
+<Carousel withIndicators
+height={200}
+slideSize="33.333333%"
+slideGap="md"
+loop
+align="start"
+slidesToScroll={3} >
+<Carousel.Slide>
             <section className="container-card-header">
                     <div className="container-card-discount">
                         <p>{props.discount}% OFF</p>
@@ -27,16 +33,15 @@ const CardProduct = (props) => {
                     <p className='container-card-price'>R${props.price}</p>
                     <img src={props.imageVariation} alt="Icone de variação de cor" />
                 </div>           
+            </section>
+        </Carousel.Slide>
+</Carousel>
+</MantineProvider>
+            
+        
 
-            {/* <Slider settings={settings}>
-                swiperSlide
-            </Slider> */}
-
-        </section>
     )
-        
-
-        
 }
 
 export default CardProduct
+

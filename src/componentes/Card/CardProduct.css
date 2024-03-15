@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    width: 288px;
 }
 
 .container-card-discount {
@@ -27,7 +28,9 @@
 }
 
 .container-card-img {
-    width: 100%;
+    width: 288px;
+    height: 353px;
+    
 }
 
 /* .container-card-img img {
