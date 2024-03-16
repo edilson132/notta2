@@ -4,8 +4,9 @@ import DataProducts from "../DataProducts/DataCardProducts";
 import CardProduct from "../Card/CardProduct";
 import { MantineProvider } from "@mantine/core";
 import '@mantine/carousel/styles.css';
-import { IconArrowRight, IconArrowLeft } from '@tabler/icons-react';
+
 import { rem } from '@mantine/core';
+import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 
 
 
