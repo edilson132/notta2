@@ -10,11 +10,11 @@ const CardProduct = (props) => {
     return (
 
         <MantineProvider>
-<Carousel withIndicators
+<Carousel 
 height={200}
 slideSize="33.333333%"
 slideGap="md"
-loop
+
 align="start"
 slidesToScroll={3} >
 <Carousel.Slide>

@@ -15,7 +15,6 @@ const Slider = () => {
       height={200}
       slideSize="33.333333%"
       slideGap="md"
-      loop
       align="start"
       slidesToScroll={3} >
                 {DataProducts.map(props => <CardProduct
