@@ -12,7 +12,7 @@ import './Slide.css'
 
 const Slider = (props) => {
     return (
-        <MantineProvider width={100} >
+        <MantineProvider>
             <Carousel
              key={props.nome}
              width={100}
