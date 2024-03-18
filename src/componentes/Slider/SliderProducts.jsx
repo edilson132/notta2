@@ -13,35 +13,33 @@ import './Slide.css'
 const Slider = (props) => {
     return (
         <MantineProvider>
-            <Carousel
-             key={props.nome}
-             height={200}
-             slideSize="10%"
-             slideGap="md"
-             loop
-             align="start"
-             slidesToScroll={3}
-             nextControlIcon={<IconArrowRight style={{ width: rem(16), height: rem(16) }} />}
-            previousControlIcon={<IconArrowLeft style={{ width: rem(16), height: rem(16) }} />}
-             >
-            
-            {DataProducts.map(props => 
-            
-            <CarouselSlide key={props.nome}>
-                <CardProduct
-                    key={props.nome}
-                    nome={props.nome}
-                    image={props.image}
-                    imageVariation={props.imageVariation}
-                    price={props.price}
-                    discount={props.discount}
-                    />
+          <Carousel
+                key={props.nome}
+                height={200}
+                slideSize="10%"
+                slideGap="md"
+                loop
+                align="start"
+                slidesToScroll={3}
+                nextControlIcon={<IconArrowRight style={{ width: rem(16), height: rem(16) }} />}
+                previousControlIcon={<IconArrowLeft style={{ width: rem(16), height: rem(16) }} />}
+                >
+                
+                {DataProducts.map(props => 
+                
+                <CarouselSlide key={props.nome}>
+                    <CardProduct
+                        key={props.nome}
+                        nome={props.nome}
+                        image={props.image}
+                        imageVariation={props.imageVariation}
+                        price={props.price}
+                        discount={props.discount}
+                        />
                 </CarouselSlide>
                 )}
         
-                
-        
-        </Carousel>
+          </Carousel>
         </MantineProvider>
         
     )
