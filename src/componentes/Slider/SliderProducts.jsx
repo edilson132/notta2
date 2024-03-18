@@ -25,7 +25,7 @@ const Slider = (props) => {
              nextControlIcon={<IconArrowRight style={{ width: rem(16), height: rem(16) }} />}
             previousControlIcon={<IconArrowLeft style={{ width: rem(1), height: rem(16) }} />}
              >
-        
+            
             {DataProducts.map(props => 
             
             <CarouselSlide key={props.nome}>
