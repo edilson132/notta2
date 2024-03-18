@@ -6,6 +6,7 @@ import { MantineProvider } from "@mantine/core";
 import '@mantine/carousel/styles.css';
 import { rem } from '@mantine/core';
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
+import './Slide.css'
 
 
 
@@ -13,11 +14,10 @@ const Slider = (props) => {
     return (
         <MantineProvider width={100} >
             <Carousel
-             showthumbs={4}
              key={props.nome}
              width={100}
              height={200}
-             slideSize="33.333333%"
+             slideSize="10%"
              slideGap="md"
              loop
              align="start"
