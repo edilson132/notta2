@@ -36,7 +36,8 @@ const Slider = (props) => {
                     imageVariation={props.imageVariation}
                     price={props.price}
                     discount={props.discount}
-                    /></CarouselSlide>
+                    />
+                </CarouselSlide>
                 )}
         
                 
