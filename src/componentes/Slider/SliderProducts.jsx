@@ -15,7 +15,6 @@ const Slider = (props) => {
         <MantineProvider>
             <Carousel
              key={props.nome}
-             width={100}
              height={200}
              slideSize="10%"
              slideGap="md"
