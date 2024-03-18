@@ -23,7 +23,7 @@ const Slider = (props) => {
              align="start"
              slidesToScroll={3}
              nextControlIcon={<IconArrowRight style={{ width: rem(16), height: rem(16) }} />}
-            previousControlIcon={<IconArrowLeft style={{ width: rem(1), height: rem(16) }} />}
+            previousControlIcon={<IconArrowLeft style={{ width: rem(16), height: rem(16) }} />}
              >
             
             {DataProducts.map(props => 
