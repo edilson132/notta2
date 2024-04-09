@@ -14,11 +14,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-<<<<<<< HEAD
     "react-slick": "^0.30.2",
-=======
-    "swiper": "^11.0.7",
->>>>>>> b33bf69492fb69cdff02ad038fdc3dbed9730886
     "web-vitals": "^2.1.4"
   },
   "scripts": {
