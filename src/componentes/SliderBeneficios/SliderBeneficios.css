@@ -1,0 +1,7 @@
+.container-slider-beneficios button.slick-arrow.slick-next {
+  display: none !important;
+}
+
+.container-slider-beneficios button.slick-arrow.slick-prev {
+  display: none !important;
+}

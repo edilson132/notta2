@@ -1,0 +1,18 @@
+.container-tittle {
+  position: absolute;
+  bottom: 20px;
+  padding-left: 39.69px;
+  color: #fff;
+}
+
+.container-image {
+}
+
+@media (max-width: 500px) {
+  .container-tittle {
+    position: absolute;
+    bottom: 20px;
+    padding-left: 39.69px;
+    color: #fff;
+  }
+}

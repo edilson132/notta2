@@ -1,0 +1,49 @@
+button {
+  opacity: 1;
+}
+
+.carousel-card button.slick-arrow.slick-prev {
+  top: -1.875rem;
+  left: 112rem;
+  background-image: url("F:\notta\public\imagens\leftArrow.png");
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+.carousel-card .slick-prev:before {
+  color: transparent;
+  opacity: 0;
+}
+
+.carousel-card button.slick-arrow.slick-next {
+  top: -1.875rem;
+  background-image: url("F:\notta\public\imagens\rightArrow.png");
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+.carousel-card .slick-next:before {
+  color: transparent;
+  opacity: 0;
+}
+
+.slick-dots button {
+  position: absolute;
+  top: -3.125rem;
+  size: 3.125rem;
+}
+
+.carousel-card .slick-track {
+  display: flex;
+  gap: 8px;
+}
+
+@media (max-width: 500px) {
+  .carousel-card button.slick-arrow.slick-prev {
+    top: -1.875rem;
+    left: 23.5rem;
+    background-image: url("F:\notta\public\imagens\leftArrow.png");
+    background-repeat: no-repeat;
+    opacity: 1;
+  }
+}

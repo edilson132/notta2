@@ -1,22 +1,25 @@
-.container-categorias{
-    display: flex;
-    padding-top: 6px;
+.container-categorias {
+  display: flex;
+  padding-top: 6px;
 }
 
 .container-categorias .container-categorias-img {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr) ;
-    /* display: flex;   
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* display: flex;   
     flex-flow: wrap;
     flex-grow: 5; */
-    width: 100%;
-    gap: 6px;
-
+  width: 100%;
+  gap: 6px;
 }
 
 .container-categorias-img img {
-    width: 100%;
-    height: 395px;
-    
+  width: 100%;
+  height: 395px;
+}
 
+@media (max-width: 500px) {
+  .container-categorias .container-categorias-img {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

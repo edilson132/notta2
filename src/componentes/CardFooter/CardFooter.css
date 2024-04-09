@@ -1,0 +1,16 @@
+.container-footer1 {
+  background-color: #eeeeee;
+  width: 100%;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.1px;
+  text-align: center;
+}
+
+.container-footer-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}

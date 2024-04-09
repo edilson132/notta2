@@ -1,0 +1,36 @@
+.container-vitrini-beneficios {
+  display: flex;
+  width: 280px;
+}
+
+.container-vitrini-beneficios-img {
+  display: flex;
+  align-items: center;
+}
+
+.container-vitrini-beneficios-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.container-vitrini-beneficios-text h1 {
+  position: relative;
+  top: 17px;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.container-vitrini-beneficios-text p {
+  position: relative;
+  top: -16px;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}

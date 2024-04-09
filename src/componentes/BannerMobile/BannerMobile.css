@@ -1,0 +1,18 @@
+.container-banner-mobile {
+  display: none;
+}
+
+.container-banner-mobile .slick-list {
+  position: relative;
+}
+
+.container-banner-mobile .slick-dots button::before {
+  filter: invert(1);
+  font-size: small;
+}
+
+@media (max-width: 500px) {
+  .container-banner-mobile {
+    display: block;
+  }
+}

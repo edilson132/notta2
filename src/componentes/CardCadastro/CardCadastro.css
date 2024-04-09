@@ -1,0 +1,65 @@
+.container-cadastro {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-cadastro-paragraph p {
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.7px;
+}
+
+.container-cadastro-inputs {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  gap: 20px;
+}
+
+.container-cadastro-input {
+  width: 200px;
+  height: 10px;
+  padding: 12px 24px 12px 24px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.container-cadastro-button {
+  padding-top: 20px;
+}
+
+.container-button {
+  width: 155px;
+  height: 42px;
+  padding: 12px 24px 12px 24px;
+  gap: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #000;
+  color: #fff;
+}
+
+.container-cadastro-paragraph-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: #626262;
+}
+
+.container-cadastro-paragraph-2 p {
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.container-cadastro-paragraph-2 span,
+a {
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #626262;
+}
