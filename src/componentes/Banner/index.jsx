@@ -4,6 +4,7 @@ import DataBanner from "../DataBanner/DataBanner";
 import "./Banner.css";
 import Slider from "react-slick";
 import { useEffect } from "react";
+import MenuLateral from "../MenuLateral/MenuLateral.jsx";
 
 const Banner = () => {
   const [scrolled, setScroulled] = useState(false);
@@ -56,9 +57,7 @@ const Banner = () => {
 
         <div className="container-pesquisa">
           <div className="container-button-pesquisa">
-            <button>
-              ,<img src="../imagens/buttonMenu.png" alt="" />
-            </button>
+            <MenuLateral />
           </div>
           <div>
             <nav className="container-nav">

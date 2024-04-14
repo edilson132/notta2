@@ -35,7 +35,7 @@ const MenuLateral = () => {
         ></Box>
         <Input
           size="sm"
-          placeholder="Search"
+          placeholder="O que você está procurando?"
           variant="plain"
           endDecorator={<Search />}
           slotProps={{
