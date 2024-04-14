@@ -1,0 +1,39 @@
+body {
+  font-family: Helvetica;
+}
+
+.containerItens.open + .containerItens.open {
+  display: none;
+}
+
+.item1 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.item2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.item2.open {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.item2.open + .item1 {
+  display: none;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}

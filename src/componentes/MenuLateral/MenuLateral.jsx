@@ -9,9 +9,19 @@ import ListItemButton from "@mui/joy/ListItemButton";
 // import ModalClose from "@mui/joy/ModalClose";
 import Menu from "@mui/icons-material/Menu";
 import Search from "@mui/icons-material/Search";
+import SumaryMobile from "../SumaryMobile/SumaryMobile";
+import "../DataMenuMobile/DataMenuMobile";
+import "./MenuLateral.css";
+import { useState } from "react";
 
-const MenuLateral = () => {
+const MenuLateral = (props, key) => {
   const [open, setOpen] = React.useState(false);
+
+  const [openSummaryKey, setOpenSummaryKey] = useState(null);
+
+  const toggleSummary = (key) => {
+    setOpenSummaryKey(key === openSummaryKey ? null : key);
+  };
 
   return (
     <React.Fragment>
@@ -75,10 +85,12 @@ const MenuLateral = () => {
             "& > div": { justifyContent: "center" },
           }}
         >
-          <ListItemButton sx={{ fontWeight: "lg" }}>Home</ListItemButton>
-          <ListItemButton>About</ListItemButton>
-          <ListItemButton>Studio</ListItemButton>
-          <ListItemButton>Contact</ListItemButton>
+          <ListItemButton>
+            <SumaryMobile key={props.nome} isOpen={key === openSummaryKey} />
+          </ListItemButton>
+          <ListItemButton class="listItem">{props.nome8}</ListItemButton>
+          <ListItemButton>{props.nome9}</ListItemButton>
+          <ListItemButton>{props.nome10}</ListItemButton>
         </List>
       </Drawer>
     </React.Fragment>
