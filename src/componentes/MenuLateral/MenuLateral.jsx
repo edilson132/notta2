@@ -13,8 +13,9 @@ import SumaryMobile from "../SumaryMobile/SumaryMobile";
 import "../DataMenuMobile/DataMenuMobile";
 import "./MenuLateral.css";
 import { useState } from "react";
+import FooterMenuLateral from "../FooterMenuLateral/FooterMenuLateral";
 
-const MenuLateral = (props, key) => {
+const MenuLateral = (props, key, nome9) => {
   const [open, setOpen] = React.useState(false);
 
   const [openSummaryKey, setOpenSummaryKey] = useState(null);
@@ -91,6 +92,9 @@ const MenuLateral = (props, key) => {
           <ListItemButton class="listItem">{props.nome8}</ListItemButton>
           <ListItemButton>{props.nome9}</ListItemButton>
           <ListItemButton>{props.nome10}</ListItemButton>
+          <ListItemButton>
+            <FooterMenuLateral />
+          </ListItemButton>
         </List>
       </Drawer>
     </React.Fragment>

@@ -30,7 +30,12 @@ const SumaryMobile = (props) => {
           </details>
 
           <details>
-            <summary className="item2">{props.nome3}</summary>
+            <summary
+              className={`item3 ${isOpen ? "open" : "closed"}`}
+              onClick={toggleSummary}
+            >
+              {props.nome3}
+            </summary>
             <p>{props.option1}</p>
             <p>{props.option2}</p>
             <p>{props.option3}</p>
@@ -39,7 +44,12 @@ const SumaryMobile = (props) => {
             <p>{props.option6}</p>
           </details>
           <details>
-            <summary className="item2">{props.nome4}</summary>
+            <summary
+              className={`item4 ${isOpen ? "open" : "closed"}`}
+              onClick={toggleSummary}
+            >
+              {props.nome4}
+            </summary>
             <p>{props.option1}</p>
             <p>{props.option2}</p>
             <p>{props.option3}</p>
@@ -48,7 +58,12 @@ const SumaryMobile = (props) => {
             <p>{props.option6}</p>
           </details>
           <details>
-            <summary className="item2">{props.nome5}</summary>
+            <summary
+              className={`item5 ${isOpen ? "open" : "closed"}`}
+              onClick={toggleSummary}
+            >
+              {props.nome5}
+            </summary>
             <p>{props.option1}</p>
             <p>{props.option2}</p>
             <p>{props.option3}</p>
@@ -57,7 +72,12 @@ const SumaryMobile = (props) => {
             <p>{props.option6}</p>
           </details>
           <details>
-            <summary className="item2">{props.nome6}</summary>
+            <summary
+              className={`item6 ${isOpen ? "open" : "closed"}`}
+              onClick={toggleSummary}
+            >
+              {props.nome6}
+            </summary>
             <p>{props.option1}</p>
             <p>{props.option2}</p>
             <p>{props.option3}</p>
@@ -67,7 +87,12 @@ const SumaryMobile = (props) => {
           </details>
 
           <details>
-            <summary className="item2">{props.nome7}</summary>
+            <summary
+              className={`item7 ${isOpen ? "open" : "closed"}`}
+              onClick={toggleSummary}
+            >
+              {props.nome7}
+            </summary>
             <p>{props.option1}</p>
             <p>{props.option2}</p>
             <p>{props.option3}</p>
