@@ -9,12 +9,16 @@ const CardFooterMenuLateral = (props) => {
         <img src={props.icon1} alt="" />
       </div>
       <div className="container-footer-menu-lateral-3">
-        <img src={props.icon2} alt="" />
-        <img src={props.icon3} alt="" />
-        <img src={props.icon4} alt="" />
-        <p>{props.paragraph1}</p>
-        <p>{props.paragraph2}</p>
-        <p>{props.paragraph3}</p>
+        <div className="container-footer-menu-lateral-itens-1">
+          <img src={props.icon2} alt="" />
+          <img src={props.icon3} alt="" />
+          <img src={props.icon4} alt="" />
+        </div>
+        <div className="container-footer-menu-lateral-itens-2">
+          <p>{props.paragraph1}</p>
+          <p>{props.paragraph2}</p>
+          <p>{props.paragraph3}</p>
+        </div>
       </div>
     </section>
   );

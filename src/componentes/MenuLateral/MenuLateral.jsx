@@ -92,9 +92,8 @@ const MenuLateral = (props, key, nome9) => {
           <ListItemButton class="listItem">{props.nome8}</ListItemButton>
           <ListItemButton>{props.nome9}</ListItemButton>
           <ListItemButton>{props.nome10}</ListItemButton>
-          <ListItemButton>
-            <FooterMenuLateral />
-          </ListItemButton>
+
+          <FooterMenuLateral />
         </List>
       </Drawer>
     </React.Fragment>

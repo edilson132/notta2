@@ -1,9 +1,10 @@
 import CardFooterMenuLateral from "../CardFooter/CardFooterMenuLateral";
 import DataFooterMenuLateral from "../DataFooterMenuLateral/DataFooterMenuLateral";
+import "./FooterMenuLateral.css";
 
-const FooterMenuLateral = (props) => {
+const FooterMenuLateral = () => {
   return (
-    <div>
+    <div className="container-primary">
       {DataFooterMenuLateral.map((props) => (
         <CardFooterMenuLateral
           tittle={props.tittle}
