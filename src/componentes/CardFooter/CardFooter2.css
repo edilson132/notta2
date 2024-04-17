@@ -43,3 +43,14 @@
   display: flex;
   gap: 16px;
 }
+
+@media (max-width: 480px) {
+  .container-footer-2-p2 {
+    gap: 1rem;
+  }
+
+  .container-footer-2-p3 {
+    flex-direction: column;
+    margin: 10px 40px;
+  }
+}

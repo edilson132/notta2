@@ -8,9 +8,22 @@
   text-align: center;
 }
 
+.container-position-footer-1 h1 {
+  position: relative;
+  left: 10rem;
+}
+
+.container-position-footer-1,
+.container-footer-1 {
+  position: relative;
+  left: 8rem;
+}
+
 .container-footer-1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  width: 8rem;
   gap: 5px;
 }

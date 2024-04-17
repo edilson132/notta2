@@ -1,6 +1,16 @@
+.container-position-card-beneficios {
+  background-color: #eeeeee;
+  width: 27.5rem;
+  position: relative;
+  left: 1rem;
+}
+
 .container-vitrini-beneficios {
   display: flex;
-  width: 280px;
+  width: 301px;
+  position: relative;
+  left: 6rem;
+  background-color: #eeeeee;
 }
 
 .container-vitrini-beneficios-img {

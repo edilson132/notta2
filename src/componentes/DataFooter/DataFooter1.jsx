@@ -28,7 +28,7 @@ const DataFooter1 = [
   },
   {
     id: "3",
-    tittle: "CONTATO",
+    tittle: "instagram",
     icone: "../imagens/logoInstagram1.png",
     paragraph1: "@notta",
     paragraph2: "",

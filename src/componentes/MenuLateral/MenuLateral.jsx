@@ -15,7 +15,7 @@ import "./MenuLateral.css";
 import { useState } from "react";
 import FooterMenuLateral from "../FooterMenuLateral/FooterMenuLateral";
 
-const MenuLateral = (props, key, nome9) => {
+const MenuLateral = (props, key) => {
   const [open, setOpen] = React.useState(false);
 
   const [openSummaryKey, setOpenSummaryKey] = useState(null);

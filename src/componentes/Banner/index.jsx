@@ -37,6 +37,27 @@ const Banner = () => {
     centerMode: true,
     centerPadding: "0px",
   };
+
+  const [showBlock, setShowBlock] = useState(true);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 480) {
+        setShowBlock(false);
+      } else {
+        setShowBlock(true);
+      }
+    };
+
+    // Adiciona um ouvinte de evento para redimensionamento da janela
+    window.addEventListener("resize", handleResize);
+
+    // Remove o ouvinte de evento quando o componente é desmontado
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <section className="container-header">
       <link
@@ -57,7 +78,7 @@ const Banner = () => {
 
         <div className="container-pesquisa">
           <div className="container-button-pesquisa">
-            <MenuLateral />
+            {showBlock && <MenuLateral />}
           </div>
           <div>
             <nav className="container-nav">

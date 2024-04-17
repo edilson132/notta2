@@ -33,3 +33,11 @@
   opacity: 1;
   background: #ffffff;
 }
+
+@media (max-width: 480px) {
+  .container-vitrini-social-midia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
